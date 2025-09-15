@@ -1,0 +1,3 @@
+curl -X POST http://localhost:4200/log \
+  -H "Content-Type: application/json" \
+  -d '{"service":"auth-service","level":"INFO","message":"User login successful"}'
